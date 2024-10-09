@@ -1,0 +1,120 @@
+.projects-section {
+  padding: 40px;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.projects-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Add transition for hover */
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* Adds a slight upward lift on hover */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.project-card img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px; /* Add gap between the buttons */
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.view-btn {
+  background-color: #28a745;
+}
+
+.view-btn:hover {
+  background-color: #218838;
+}
+
+.github-btn {
+  background-color: #333;
+}
+
+.github-btn:hover {
+  background-color: #555;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.screenshot-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.screenshot-img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}

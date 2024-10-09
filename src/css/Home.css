@@ -1,0 +1,28 @@
+.home-section {
+  background-image: url('C:\Users\User\node\react\my-app\public\backiiii.jpg'); /* Update with your background image path */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px; /* Add some padding */
+  color: black; /* Change text color if needed */
+}
+
+.profile-photo {
+  width: 150px; /* Adjust the size as necessary */
+  height: 150px; /* Adjust the size as necessary */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area */
+  margin: 20px 0; /* Add some margin around the photo */
+  border: 3px solid black; /* Optional: adds a border around the photo */
+}
+
+.name {
+  font-size: 2.5em; /* Adjust the font size */
+  font-weight: bold; /* Make the name bold */
+  margin: 10px 0; /* Add margin above and below the name */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds shadow for better readability */
+}
+
+h2 {
+  font-size: 1.5em; /* Adjust the size for the welcome message */
+}

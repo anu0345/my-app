@@ -1,0 +1,16 @@
+.about-section {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: WHITE;
+    color: black;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-section p {
+    font-size: 1.5rem;
+    color: #b45858;
+  }
